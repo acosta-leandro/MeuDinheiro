@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leandroacosta.leandro.meudinheiro" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaPrincipalActivity" >
+        </activity>
+        <activity android:name=".AcoesActivity" >
+        </activity>
+        <activity android:name=".RendaFixaActivity" >
+        </activity>
+        <activity
+            android:name=".AddRendaFixaActivity"
+            android:label="@string/title_activity_add_renda_fixa"
+            android:parentActivityName=".RendaFixaActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.leandroacosta.leandro.meudinheiro.RendaFixaActivity" />
+        </activity>
+        <activity android:name=".AdicionarRendaFixaActivity" >
+        </activity>
+        <activity android:name=".RemoverRendaFixaActivity" >
+        </activity>
+        <activity android:name=".AdicionarAcoesActivity" >
+        </activity>
+    </application>
+
+</manifest>
