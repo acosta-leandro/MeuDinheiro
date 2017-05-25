@@ -39,6 +39,10 @@
         </activity>
         <activity android:name=".AdicionarAcoesActivity" >
         </activity>
+        <activity android:name=".DetalharAcoesActivity" >
+        </activity>
+        <activity android:name=".DetalharRendaFixaActivity" >
+        </activity>
     </application>
 
 </manifest>
